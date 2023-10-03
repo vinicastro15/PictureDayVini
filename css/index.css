@@ -1,0 +1,65 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+    font-family: 'Amatic SC', cursive;
+   
+}
+
+body {
+    background-image: url('../img/ceu-estrelado.jpg');
+    background-attachment: fixed;
+}
+.sectionh1{
+    color: white;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    margin-top:20px;
+    margin-bottom:0px;
+}
+
+#data{
+    width: 17%;
+    height: 12%;
+    font-size: 150%;
+   background-image: linear-gradient(to right, rgb(14, 14, 30), transparent );
+    color:rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 40%;
+}
+
+button{
+    border: 1px solid;
+    border-radius: 30px;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    padding: 20px;
+    width: 110px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.tituloo{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.img-apod{
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin:30px auto 20px auto;
+}
+
+.legenda{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
